@@ -1,8 +1,8 @@
 # Curso de Programador Web - Camada 2595
 
-## Secciones:
+## Secciones, primera parte del curso:
 
-Voy a ir subiendo cada clase que hagamos en este mismo repositorio y agregando una carpeta por cada clase en la misma van a encontrar:
+Voy a ir subiendo cada clase que hagamos en este repositorio y agregando una carpeta por cada clase, en las mismas van a encontrar:
 
 - Un archivo `index.html` que contiene la inclusión de nuestro/s archivo/s Javascript.
 
@@ -12,4 +12,4 @@ Voy a ir subiendo cada clase que hagamos en este mismo repositorio y agregando u
 
 Cada vez que actualice la info les voy a avisar por Slack, pero el repositorio va a ser siempre el mismo para que no sea un lío.
 
-Cualquier duda o si quieren que suba algún material extra en particular me van preguntado !
+Cualquier duda o material extra que precisen me van preguntado !
