@@ -12,13 +12,13 @@ console.log('Hola ' + nombre)
 ```
 
 
-En este ejemplo lo que le pedimos a la computadora varias cosas:
+En este ejemplo le pedimos a la computadora varias cosas:
 
-1. Que cree una variable llamada 'nombre' sin ningún valor asignado, esto lo hacemos escribiendo `var` espacio el nombre de la variable.
+1. Crear una variable llamada 'nombre' sin ningún valor asignado, esto lo hacemos escribiendo `var` espacio el nombre de la variable.
 
-2. Que a la variable `nombre` le asigne el string `Juan`, esto se hace poniendo el nombre de la variable igual a el valor que le queremos asignar. Todo lo de la derecha del igual se guarda en la variable de la izquierda, en este caso `nombre`.
+2. Asignarle a la variable `nombre` el string `'Juan'`, esto se hace poniendo el nombre de la variable igual a el valor que le queremos asignar. Todo lo de la derecha del igual se guarda en la variable de la izquierda, en este caso `'Juan'` se guarda en `nombre`.
 
-3. Que imprima en consola 'Hola ' más el string almacenado en la variable 'nombre', dando como resultado la impresión de un `Hola Juan` en consola. Esto se logra escribiendo `console.log()` y poniendo dentro de los paréntesis el string que queremos mostrar en pantalla.
+3. Que imprima en consola `'Hola '` seguido del string almacenado en la variable `nombre`, dando como resultado la impresión de un `'Hola Juan'` en consola. Esto se logra escribiendo `console.log()` y poniendo dentro de los paréntesis el string que queremos mostrar en pantalla.
 
 # Palabras reservadas
 
