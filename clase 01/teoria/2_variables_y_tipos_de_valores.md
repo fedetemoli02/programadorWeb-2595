@@ -4,11 +4,11 @@ Las variables en Javascript sirven para almacenar datos de distintos tipos y tie
 Un ejemplo de una variable y su moficiación es:
 
 ```js
-var nombre 
+var firstName 
 
-nombre = 'Juan'
+firstName = 'Juan'
 
-nombre = 'Pedro'
+firstName = 'Pedro'
 
 ```
 
@@ -23,9 +23,9 @@ En Javascript no existen los tipo de variables, pero si los tipos de valores que
 Booleano o boolean, solo puede tomar dos valores `true` (verdadero) o `false` (falso). Aunque no se usa tanto como valor de una variable de manera implicita, si muchas veces ciertos valores los convertimos a Booleanos para poder tomar deciciones.
 
 ```js
-var booleano1 = true
+var boolean1 = true
 
-var booleano2 = false
+var boolean2 = false
 
 ```
 
@@ -36,11 +36,11 @@ var booleano2 = false
 Los numero o number son los numeros que usamos en operaciones matemáticas y pueden ser numeros enteros `1 2 3`, decimales `3.1416 2.4` y negativos `-5 -8.3`. Este tipo de valores nos sirven para contar o hacer calculos matemáticos con ellos.
 
 ```js
-var numeroEntero = 3
+var intNumber = 3
 
-var numeroDecimal = 0.87876
+var floatNumber = 0.87876
 
-var numeroDecimalNegativo = -5.4
+var ngeativeFloatNumber = -5.4
 
 ```
 
@@ -51,13 +51,13 @@ var numeroDecimalNegativo = -5.4
 Las cadenas de texto o strings son las palabras, letras `a b C D`, signos `: . @`, saltos de línea `'enter'`, espacios ` `, etc. Para escribir un string tenemos que encerrar el texto en comillas simples o dobles, se recomienda según standard js usar simples. Con este tipo de valor podemos representar los textos y hacer operaciones para modificarlos o mostrarlos en pantalla. Es importante que tengamos en cuenta que no es lo mismo un numéro alamacenado como string que un number, Javascript los va a tratar de manera distinta.
 
 ```js
-var nombre = 'Juan'
+var firstName = 'Juan'
 
 var email = 'juan@gmail.com'
 
-var numeros = '1 2 3 4 5 setenta y ocho'
+var numbers = '1 2 3 4 5 setenta y ocho'
 
-var texto = 'The dark side of the moon'
+var text = 'The dark side of the moon'
 ```
 
 *Ej: El email que ingresamos como usuario o los textos que escribimos en los muros de facebook*
@@ -69,9 +69,9 @@ var texto = 'The dark side of the moon'
 - Nulo o null tiene el mismo significado de undefined en la mayoria de los casos, pero este si suele ser un valor que nosotros asignamos a una variable, para indicar que la misma no contiene nada.
 
 ```js
-var indefinido // En este punto la variable tiene el valor indefinido
+var example1 // En este punto la variable tiene el valor indefinido
 
-var nulo = null // Acá yo como usuario le asigno el valor nulo
+var example2 = null // Acá yo como usuario le asigno el valor nulo
 ```
 
 *Ej: Cuando no ingresamos nada en un prompt, el valor que nos devuelve es undefined*
@@ -81,14 +81,14 @@ var nulo = null // Acá yo como usuario le asigno el valor nulo
 Un objeto o object es un contenedor que nos permite agrupar varios tipos de valores juntos, bajo un mismo concepto. Lo valores que pueden contener son todos los permitidos en Javascript y la forma de accederlos es a travez de las `key` o llaves del objeto. La forma de declara un objeto es abriendo y cerrando llaves `{ }`, dentro de las llaves se ponene las keys del objeto y con dos puntos `:` se le asignan valores a esas keys.
 
 ```js
-var usuario = {
-  nombre: 'Juan',
-  edad: 25,
-  direccion: 'Calle falsa 1234'
+var user = {
+  firstName: 'Juan',
+  age: 25,
+  address: 'Calle falsa 1234'
 }
 
-usuario.nombre // Accedo a la propiedad nombre del objeto usuario
-usuario.edad // Accedo a la propiedad edad del objeto usuario
+user.firstName // Accedo a la propiedad firstName del objeto usuario
+user.age // Accedo a la propiedad age del objeto usuario
 ```
 
 *Ej: Un contacto de la agenda que tiene a su vez información especifica como el nombre, la dirección, el numéro de teléfono, el cumpleaños, etc...*
@@ -98,9 +98,9 @@ usuario.edad // Accedo a la propiedad edad del objeto usuario
 Un arreglo o array es un caso particular de un objeto en Javascript, la particularidad que tiene es que nos permite tener valores ordenado y acceder a ellos mediante la posición en el array. Los array pueden contener cualquier tipo de valor dentro de ellos incluidos otros arrays y es importante tener en cuenta que la posición dentro del array se cuenta empezando por cero.
 
 ```js
-var arreglo = [1,2,'Pedro',false]
+var array = [1,2,'Pedro',false]
 
-arreglo[2] // Esto me devuelve el string 'Pedro'
+array[2] // Esto me devuelve el string 'Pedro'
 ```
 
 *Ej: La bandeja de entrada del mail que contiene objetos (en este caso mails), ordenados cronologicamente.*

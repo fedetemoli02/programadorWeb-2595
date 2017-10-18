@@ -4,11 +4,11 @@ En javascript como en otros lenguajes de programación existe una sintaxis que e
 Un ejemplo de sintaxis bien sencilla es:
 
 ```js
-var nombre
+var firstName
 
-nombre = 'Juan'
+firstName = 'Juan'
 
-console.log('Hola ' + nombre)
+console.log('Hola ' + firstName)
 ```
 
 
@@ -25,11 +25,11 @@ En este ejemplo le pedimos a la computadora varias cosas:
 En el mismo ejemplo:
 
 ```js
-var nombre
+var firstName
 
-nombre = 'Juan'
+firstName = 'Juan'
 
-if( nombre ==='Juan' ){
+if( firstName ==='Juan' ){
   alert('Tu nombre es Juan!')
 }
 
