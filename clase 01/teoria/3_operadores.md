@@ -12,11 +12,11 @@ var number = 2.5
 var text = 'Hola mundo!'
 ```
 
-## Adición y Concatenación - `addition` y `concat`
+## Adición y Concatenación - addition y concat
 
 El símbolo `+` en Javascript nos permite hacer dos operaciones distintas dependiendo de los elementos que interactúen. 
 
-### Adición - `addition`
+### Adición - addition
 
 Una operación es la suma matemática de valores, para esto es necesario que todos los elementos sean de tipo number o booleanos. En caso de `true` o `false` los toma como 1 y 0 respectivamente.
 
@@ -32,7 +32,7 @@ var result2 = 6 + 5.3 // Esto le asigna el valor numérico 11.3 a la variable re
 var result3 = true * 5 // Este le asigna el valor numérico 5 a la variable result3
 ```
 
-### Concatenación - `concat`
+### Concatenación - concat
 
 La otra operación es la concatenación de cadenas de texto, esto se logra teniendo al menos uno de los elementos de tipo string en la operación. Lo que hace Javascript es tratar de convertir los valores no numéricos a string y luego juntarlos en uno solo.
 
@@ -47,7 +47,7 @@ var text3 = 'Hola ' + true // Esto asigna el string 'Hola true' a la variable te
 
 ```
 
-## Substracción - `subtraction`
+## Substracción - subtraction
 
 La resta se define con el símbolo `-` y se realiza entre dos valores de tipo number, si se emplea con valores de tipo string o inválidos devuelve `NaN`.
 
@@ -58,7 +58,7 @@ var result = number - 10 // Esto asigna el valor -2 en la variable result
 
 ```
 
-## Multiplicación - `multiplication`
+## Multiplicación - multiplication
 
 La multiplicación se define con el símbolo `*` y se realiza entre dos valores de tipo number, si se emplea con valores de tipo string o inválidos devuelve `NaN`.
 
@@ -69,7 +69,7 @@ var result = number * 10 // Esto asigna el valor 50 en la variable result
 
 ```
 
-## División - `division`
+## División - division
 
 La división se define con el símbolo `/` y se realiza entre dos valores de tipo number, si se emplea con valores de tipo string o inválidos devuelve `NaN`. En caso de tratar de dividir por cero el resultado es Infinity.
 
@@ -80,7 +80,7 @@ var result = number / 10 // Esto asigna el valor 5 en la variable result
 
 ```
 
-## Módulo - `modulus`
+## Módulo - modulus
 
 El módulo es un operador que nos permite saber el resto de una división. Este operador nos sirve por ejemplo para saber si un número es par o impar, haciendo el módulo de 2.
 
@@ -90,7 +90,7 @@ var modulus1 = 5 % 2 // En este caso devuelve 1, por lo cual el número es impar
 var modulus2 = 10 % 2 // En este caso el resto es 0, por lo cual el número es par
 ```
 
-## Incremental - `increment`
+## Incremental - increment
 
 El operador incremental `++` nos sirve para sumarle un 1 al valor de una variable number.
 
@@ -100,7 +100,7 @@ var number = 5
 number++ // Esto es equivalente a number = number + 1
 ```
 
-## Decremental - `decrement`
+## Decremental - decrement
 
 El operador decremental `--` nos sirve para restarle un 1 al valor de una variable number.
 
@@ -116,7 +116,7 @@ number-- // Esto es equivalente a number = number - 1
 
 Los operadores de comparación permiten comparar elementos y arrojar un resultado verdadero `true` o falso `false` que nos permite tomar decisiones en nuestro código.
 
-## Estrictamente igual - `strict equality`
+## Estrictamente igual - strict equality
 
 El operador estrictamente igual `===` recibe dos parámetros y los compara, si ambos son iguales, tanto es su valor como en su tipo, entonces devuelve true, sino false.
 
@@ -133,7 +133,7 @@ number === '1234' // Esto da como resultado false porque aunque parecen similare
 
 ```
 
-## Estrictamente desigual - `strict not equal`
+## Estrictamente desigual - strict not equal
 
 El operador estrictamente desigual `!==` recibe dos parámetros y los compara, si ambos son iguales, tanto es su valor como en su tipo, entonces devuelve false, sino true.
 
@@ -148,7 +148,7 @@ firstName !== 'Juan' // Esto da como resultado false, porque tanto el valor 'Jua
 
 ```
 
-## Mayor  - `greater than operator`
+## Mayor  - greater than operator
 
 El operador mayor `>` devuelve true si el número de la izquierda es mayor que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es mayor si tiene una posición posterior en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
 
@@ -163,7 +163,7 @@ var number = 5
 
 ```
 
-## Mayor igual - `greater than or equal operator`
+## Mayor igual - greater than or equal operator
 
 
 El operador mayor igual `>=` devuelve true si el número de la izquierda es mayor o igual que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es mayor o igual si tiene una posición posterior o igual en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
@@ -177,7 +177,7 @@ var number = 5
 
 ```
 
-## Menor  - `less than operator`
+## Menor  - less than operator
 
 El operador menor `<` devuelve true si el número de la izquierda es menor que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es menor si tiene una posición anterior en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
 
@@ -190,7 +190,7 @@ var number = 5
 
 ```
 
-## Menor igual - `less than or equal operator`
+## Menor igual - less than or equal operator
 
 
 El operador menor igual `>=` devuelve true si el número de la izquierda es menor o igual que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es menor o igual si tiene una posición anterior o igual en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
@@ -204,12 +204,12 @@ var number = 5
 
 ```
 
-## Negación - `NOT`
+## Negación - NOT
 
 El operador de negación evalúa una sentencia de un solo termino, si la evaluación es true devuelve false y si la evaluación es false devuelve true.
 En Javascript hay una lista de valores que al evaluarlos devuelven false, los que no están en esta lista devuelven true.
 
-### Lista de falsos - `falsy list`
+### Lista de falsos - falsy list
 
 El string vacío `''`
 El número cero o menos cero `0` `-0`
