@@ -2,7 +2,7 @@
 
 ## assignment
 
-El operador de asignación `=` nos permite asiganer un valor a una variable.
+El operador de asignación `=` nos permite asignar un valor a una variable.
 
 ```js
 var number = 2.5
@@ -12,7 +12,7 @@ var text = 'Hola mundo!'
 
 ## addition and concat
 
-El simbolo `+` en Javascript nos permite hacer dos operaciones distintas dependiendo de los elementos que interactúen. 
+El símbolo `+` en Javascript nos permite hacer dos operaciones distintas dependiendo de los elementos que interactúen. 
 
 ### addition 
 
@@ -47,7 +47,7 @@ var text3 = 'Hola ' + true // Esto asigna el string 'Hola true' a la variable te
 
 ## subtraction
 
-La resta se define con el símbolo `-` y se realiza entre dos valores de tipo number, si se emplea con valores de tipo string o invalidos devuelve `NaN`.
+La resta se define con el símbolo `-` y se realiza entre dos valores de tipo number, si se emplea con valores de tipo string o inválidos devuelve `NaN`.
 
 ```js
 var number  = 8
@@ -58,7 +58,7 @@ var result = number - 10 // Esto asigna el valor -2 en la variable result
 
 ## multiplication
 
-La multiplicación se define con el símbolo `*` y se realiza entre dos valores de tipo number, si se emplea con valores de tipo string o invalidos devuelve `NaN`.
+La multiplicación se define con el símbolo `*` y se realiza entre dos valores de tipo number, si se emplea con valores de tipo string o inválidos devuelve `NaN`.
 
 ```js
 var number  = 5
@@ -69,7 +69,7 @@ var result = number * 10 // Esto asigna el valor 50 en la variable result
 
 ## division
 
-La división se define con el símbolo `/` y se realiza entre dos valores de tipo number, si se emplea con valores de tipo string o invalidos devuelve `NaN`. En caso de tratar de dividir por cero el resultado es Infinity.
+La división se define con el símbolo `/` y se realiza entre dos valores de tipo number, si se emplea con valores de tipo string o inválidos devuelve `NaN`. En caso de tratar de dividir por cero el resultado es Infinity.
 
 ```js
 var number  = 50
@@ -80,12 +80,12 @@ var result = number / 10 // Esto asigna el valor 5 en la variable result
 
 ## modulus
 
-El módulo es un operador que nos permite saber el resto de una división. Este operador nos sirve por ejemplo para saber si un numéro es par o impar, haciendo el módulo de 2.
+El módulo es un operador que nos permite saber el resto de una división. Este operador nos sirve por ejemplo para saber si un número es par o impar, haciendo el módulo de 2.
 
 ```js
-var modulus1 = 5 % 2 // En este caso devuelve 1, por lo cual el numéro es impar
+var modulus1 = 5 % 2 // En este caso devuelve 1, por lo cual el número es impar
 
-var modulus2 = 10 % 2 // En este caso el resto es 0, por lo cual el numéro es par
+var modulus2 = 10 % 2 // En este caso el resto es 0, por lo cual el número es par
 ```
 
 ## increment
