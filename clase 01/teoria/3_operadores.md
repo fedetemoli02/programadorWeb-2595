@@ -2,7 +2,7 @@
 
 Los operadores aritméticos permiten realizar operaciones matemáticas con números y también manipular cadenas de texto.
 
-## Asignación - `assignment`
+## Asignación - ```assignment```
 
 El operador de asignación `=` nos permite asignar un valor a una variable.
 
@@ -188,10 +188,10 @@ var number = 5
 
 ```
 
-## Mayor igual - `less than or equal operator`
+## Menor igual - `less than or equal operator`
 
 
-El operador menor `>=` devuelve true si el número de la izquierda es menor o igual que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es menor o igual si tiene una posición anterior o igual en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
+El operador menor igual `>=` devuelve true si el número de la izquierda es menor o igual que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es menor o igual si tiene una posición anterior o igual en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
 
 ```js
 var number = 5
@@ -207,7 +207,7 @@ var number = 5
 El operador de negación evalúa una sentencia de un solo termino, si la evaluación es true devuelve false y si la evaluación es false devuelve true.
 En Javascript hay una lista de valores que al evaluarlos devuelven false, los que no están en esta lista devuelven true.
 
-# Lista de falsos - `falsy list`
+### Lista de falsos - `falsy list`
 
 El string vacío `''`
 El número cero o menos cero `0` `-0`
