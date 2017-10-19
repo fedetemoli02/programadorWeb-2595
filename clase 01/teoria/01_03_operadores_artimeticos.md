@@ -14,7 +14,7 @@ var text = 'Hola mundo!'
 
 ## Adición y Concatenación - addition y concat
 
-El símbolo `+` en Javascript nos permite hacer dos operaciones distintas dependiendo de los elementos que interactúen. 
+El símbolo `+` en JavaScript nos permite hacer dos operaciones distintas dependiendo de los elementos que interactúen. 
 
 ### Adición - addition
 
@@ -34,7 +34,7 @@ var result3 = true * 5 // Este le asigna el valor numérico 5 a la variable resu
 
 ### Concatenación - concat
 
-La otra operación es la concatenación de cadenas de texto, esto se logra teniendo al menos uno de los elementos de tipo string en la operación. Lo que hace Javascript es tratar de convertir los valores no numéricos a string y luego juntarlos en uno solo.
+La otra operación es la concatenación de cadenas de texto, esto se logra teniendo al menos uno de los elementos de tipo string en la operación. Lo que hace JavaScript es tratar de convertir los valores no numéricos a string y luego juntarlos en uno solo.
 
 ```js
 var text1 = 'Hola ' + 234 // Esto asigna el string 'Hola 234' a la variable text1

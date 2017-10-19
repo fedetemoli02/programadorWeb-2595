@@ -95,7 +95,7 @@ var number = 5
 ## Negación - NOT
 
 El operador de negación evalúa una sentencia de un solo termino, si la evaluación es true devuelve false y si la evaluación es false devuelve true.
-En Javascript hay una lista de valores que al evaluarlos devuelven false, los que no están en esta lista devuelven true.
+En JavaScript hay una lista de valores que al evaluarlos devuelven false, los que no están en esta lista devuelven true.
 
 ### Lista de falsos - falsy list
 
