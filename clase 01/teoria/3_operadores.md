@@ -2,7 +2,7 @@
 
 Los operadores aritméticos permiten realizar operaciones matemáticas con números y también manipular cadenas de texto.
 
-## Asignación - ### `assignment`
+## Asignación - assignment
 
 El operador de asignación `=` nos permite asignar un valor a una variable.
 
