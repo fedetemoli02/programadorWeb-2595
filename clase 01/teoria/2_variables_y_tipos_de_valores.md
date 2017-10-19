@@ -46,7 +46,7 @@ var negativeFloatNumber = -5.4
 
 *Ej: Una calculadora que almacena valores de tipo numérico para hacer las operaciones.*
 
-## string
+## Cadena de texto - `string`
 
 Las cadenas de texto o strings son las palabras, letras `a b C D`, signos `: . @`, saltos de línea `'enter'`, espacios ` `, etc. Para escribir un string tenemos que encerrar el texto en comillas simples o dobles, se recomienda según standard js usar simples. Con este tipo de valor podemos representar los textos y hacer operaciones para modificarlos o mostrarlos en pantalla. Es importante que tengamos en cuenta que no es lo mismo un número almacenado como string que un number, Javascript los va a tratar de manera distinta.
 
@@ -62,7 +62,7 @@ var text = 'The dark side of the moon'
 
 *Ej: El email que ingresamos como usuario o los textos que escribimos en los muros de facebook*
 
-## undefined y null
+## Indefinido y Nulo - `undefined`,`null`
 
 - Indefinido o undefined es un valor que no arroja Javascript para indicarnos que el valor al cual queremos acceder aun no fue definido, ya sea porque no se le asigno un valor a la variable o porque queremos acceder a la propiedad de un objeto que no existe. Este tipo de valor suele ser devuelto por el sistema y no tanto ingresado por el usuario.
 
@@ -76,7 +76,7 @@ var example2 = null // Acá yo como usuario le asigno el valor nulo
 
 *Ej: Cuando no ingresamos nada en un prompt, el valor que nos devuelve es undefined*
 
-## object
+## Objecto - (`object`)
 
 Un objeto o object es un contenedor que nos permite agrupar varios tipos de valores juntos, bajo un mismo concepto. Lo valores que pueden contener son todos los permitidos en Javascript y la forma de acceder es a través de las `key` o llaves del objeto. La forma de declara un objeto es abriendo y cerrando llaves `{ }`, dentro de las llaves se ponen las keys del objeto y con dos puntos `:` se le asignan valores a esas keys.
 
