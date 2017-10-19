@@ -18,7 +18,7 @@ Para poder declara una variable usamos la palabra reservada `var` seguida de un 
 
 En Javascript no existen los tipo de variables, pero si los tipos de valores que puede contener o tomar una variable, esto es por lo que se lo conoce como un lenguaje débilmente tipado.
 
-## Booleano / boolean
+## Booleano - `boolean`
 
 Booleano o boolean, solo puede tomar dos valores `true` (verdadero) o `false` (falso). Aunque no se usa tanto como valor de una variable de manera implícita, si muchas veces ciertos valores los convertimos a Booleanos para poder tomar decisiones.
 
@@ -31,7 +31,7 @@ var boolean2 = false
 
 *Ej: La tecla de luz, si esta prendida es `true`, si la apago es `false`.*
 
-## Número - (number)
+## Número - `number`
 
 Los numero o number son los números que usamos en operaciones matemáticas y pueden ser números enteros `1 2 3`, decimales `3.1416 2.4` y negativos `-5 -8.3`. Este tipo de valores nos sirven para contar o hacer cálculos matemáticos con ellos.
 
@@ -62,7 +62,7 @@ var text = 'The dark side of the moon'
 
 *Ej: El email que ingresamos como usuario o los textos que escribimos en los muros de facebook*
 
-## Indefinido y Nulo - `undefined`,`null`
+## Indefinido y Nulo - `undefined` y `null`
 
 - Indefinido o undefined es un valor que no arroja Javascript para indicarnos que el valor al cual queremos acceder aun no fue definido, ya sea porque no se le asigno un valor a la variable o porque queremos acceder a la propiedad de un objeto que no existe. Este tipo de valor suele ser devuelto por el sistema y no tanto ingresado por el usuario.
 
@@ -76,7 +76,7 @@ var example2 = null // Acá yo como usuario le asigno el valor nulo
 
 *Ej: Cuando no ingresamos nada en un prompt, el valor que nos devuelve es undefined*
 
-## Objecto - (`object`)
+## Objecto - `object`
 
 Un objeto o object es un contenedor que nos permite agrupar varios tipos de valores juntos, bajo un mismo concepto. Lo valores que pueden contener son todos los permitidos en Javascript y la forma de acceder es a través de las `key` o llaves del objeto. La forma de declara un objeto es abriendo y cerrando llaves `{ }`, dentro de las llaves se ponen las keys del objeto y con dos puntos `:` se le asignan valores a esas keys.
 
@@ -93,7 +93,7 @@ user.age // Accedo a la propiedad age del objeto usuario
 
 *Ej: Un contacto de la agenda que tiene a su vez información especifica como el nombre, la dirección, el número de teléfono, el cumpleaños, etc...*
 
-## array
+## Arreglo - `array`
 
 Un arreglo o array es un caso particular de un objeto en Javascript, la particularidad que tiene es que nos permite tener valores ordenado y acceder a ellos mediante la posición en el array. Los array pueden contener cualquier tipo de valor dentro de ellos incluidos otros arrays y es importante tener en cuenta que la posición dentro del array se cuenta empezando por cero.
 
