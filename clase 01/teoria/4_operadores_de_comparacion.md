@@ -97,11 +97,11 @@ En Javascript hay una lista de valores que al evaluarlos devuelven false, los qu
 
 ### Lista de falsos - falsy list
 
-El string vacío `''`
-El número cero o menos cero `0` `-0`
-El símbolo `NaN`
-El nulo o indefinido `null` `undefined`
-El falso `false`
+- El string vacío `''`
+- El número cero o menos cero `0` `-0`
+- El símbolo `NaN`
+- El nulo o indefinido `null` `undefined`
+- El falso `false`
 
 
 ```js

@@ -1,5 +1,7 @@
 # Algoritmo de un café
 
+> La idea es tener un ejemplo mental de un algoritmo y sus partes, noten que acá tenemos los ingredientes, un proceso que es la preparación del café y que tiene parámetros claros y un resultado final que es la taza de café lista. En la mayoría de los ejercicios que hagamos la estructura vas a ser la misma, por lo cual es bueno tener esto en mente.
+
 ## Ingredientes
 
 - Café 250 ml.
@@ -17,6 +19,4 @@
 
 Un taza de un buen café!
 
-# Concepto
 
-> La idea es tener un ejemplo mental de un algoritmo y sus partes, noten que acá tenemos los ingredientes, un proceso que es la preparación del café y que tiene parámetros claros y un resultado final que es la taza de café lista. En la mayoría de los ejercicios que hagamos la estructura vas a ser la misma, por lo cual es bueno tener esto en mente.
