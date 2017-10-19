@@ -90,6 +90,8 @@ var number = 5
 
 ```
 
+ *Nota: La tabla [ASCII](http://www.elcodigoascii.com.ar/) diferencia minúsculas de mayúsculas, tiene también otros símbolos como saltos de linea o espacios y esta pensada para el alfabeto inglés, por lo cual las tildes o la ñ no respetan la posición de nuestro alfabeto.*
+
 ## Negación - NOT
 
 El operador de negación evalúa una sentencia de un solo termino, si la evaluación es true devuelve false y si la evaluación es false devuelve true.
@@ -117,4 +119,3 @@ En Javascript hay una lista de valores que al evaluarlos devuelven false, los qu
 ```
 
 
- *Nota: La tabla [ASCII](http://www.elcodigoascii.com.ar/) diferencia minúsculas de mayúsculas, tiene también otros símbolos como saltos de linea o espacios y esta pensada para el alfabeto inglés, por lo cual las tildes o la ñ no respetan la posición de nuestro alfabeto.*
