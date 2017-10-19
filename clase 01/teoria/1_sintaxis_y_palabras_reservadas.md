@@ -21,6 +21,8 @@ En este ejemplo le pedimos a la computadora varias cosas:
 
 3. Que muestre en consola `'Hola '` seguido del string almacenado en la variable `nombre`, dando como resultado un `'Hola Juan'` en consola. Esto se logra escribiendo `console.log()` y poniendo dentro de los paréntesis el string que queremos mostrar en pantalla.
 
+---
+
 # Palabras reservadas
 
 Las palabras reservadas son aquellas que usamos para darle instrucciones al la computadora. Estas palabras no se pueden usar para nombres de variables ni funciones, por eso se llaman reservadas.

@@ -14,6 +14,8 @@ firstName = 'Pedro'
 
 Para poder declara una variable usamos la palabra reservada `var` seguida de un espacio y luego el nombre de la variable, que puede empezar con una letra mayúscula o minúscula `a b c D E`, un guion bajo `_` o un signo pesos `$`, luego de la primer letra también podemos usar números `1 2 67`.
 
+---
+
 # Tipos de valores
 
 En Javascript no existen los tipo de variables, pero si los tipos de valores que puede contener o tomar una variable, esto es por lo que se lo conoce como un lenguaje débilmente tipado.
