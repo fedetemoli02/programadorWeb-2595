@@ -107,4 +107,4 @@ array[2] // Esto me devuelve el string 'Pedro'
 
 *Ej: La bandeja de entrada del mail que contiene objetos (en este caso mails), ordenados cronológicamente.*
 
-
+[Siguiente tema](01_03_operadores_aritmeticos.md)

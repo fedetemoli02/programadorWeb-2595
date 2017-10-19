@@ -109,3 +109,5 @@ var number = 5
 
 number-- // Esto es equivalente a number = number - 1
 ```
+
+[Siguiente tema](01_04_operadores_de_comparacion.md)

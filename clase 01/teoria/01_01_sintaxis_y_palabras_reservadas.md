@@ -39,3 +39,5 @@ if( firstName ==='Juan' ){
 ```
 
 En el ejemplo vemos algunas palabras como `var` que la usamos para declarar una variable o el `if` que nos permite evaluar una condición booleana. Estas palabras están reservadas solo para darle instrucciones al programa y no pueden ser utilizadas como nombres de variables. También vemos palabras como `alert()` que son llamados a funciones del sistema, estas no son palabras reservadas, pero hay que tener cuidado de no generar nombres de variables que puedan confundirse con estas funciones.
+
+[Siguiente tema](01_02_variables_y_tipos_de_valores.md)
