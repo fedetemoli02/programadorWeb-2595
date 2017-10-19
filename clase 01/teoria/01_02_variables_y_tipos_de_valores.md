@@ -12,7 +12,13 @@ firstName = 'Pedro'
 
 ```
 
-Para poder declara una variable usamos la palabra reservada `var` seguida de un espacio y luego el nombre de la variable, que puede empezar con una letra mayúscula o minúscula `a b c D E`, un guion bajo `_` o un signo pesos `$`, luego de la primer letra también podemos usar números `1 2 67`.
+Para poder declara una variable usamos la palabra reservada `var` seguida de un espacio y luego el nombre de la variable, que puede empezar con una letra mayúscula o minúscula `a b c D E`, un guion bajo `_` o un signo pesos `$`, luego de la primer letra también podemos usar números `1 2 67`. En este caso usamos el nombre 'firstName', luego de la declaración le asignamos el string 'Juan' y luego modificamos o 'pisamos' ese valor asignando el string 'Pedro'.
+
+Esta declaración y asignación también puede realizarse en un solo paso
+
+```js
+var lastName = 'Perez'
+```
 
 ---
 
@@ -22,7 +28,7 @@ En JavaScript no existen los tipo de variables, pero si los tipos de valores que
 
 ## Booleano - `boolean`
 
-Booleano o boolean, solo puede tomar dos valores `true` (verdadero) o `false` (falso). Aunque no se usa tanto como valor de una variable de manera implícita, si muchas veces ciertos valores los convertimos a Booleanos para poder tomar decisiones.
+Booleano o boolean, solo puede tomar dos valores `true` (verdadero) o `false` (falso). Aunque no se usa tanto como valor de una variable de manera implícita, si muchas veces ciertos valores los convertimos a booleanos para poder tomar decisiones.
 
 ```js
 var boolean1 = true
@@ -35,7 +41,7 @@ var boolean2 = false
 
 ## Número - `number`
 
-Los numero o number son los números que usamos en operaciones matemáticas y pueden ser números enteros `1 2 3`, decimales `3.1416 2.4` y negativos `-5 -8.3`. Este tipo de valores nos sirven para contar o hacer cálculos matemáticos con ellos.
+Los numero o number son los números que usamos en operaciones matemáticas y pueden ser números enteros incluido el cero `0 1 2 3`, decimales `3.1416 2.4` y negativos `-5 -8.3`. Este tipo de valores nos sirven para contar o hacer cálculos matemáticos con ellos.
 
 ```js
 var intNumber = 3
@@ -50,7 +56,7 @@ var negativeFloatNumber = -5.4
 
 ## Cadena de texto - `string`
 
-Las cadenas de texto o strings son las palabras, letras `a b C D`, signos `: . @`, saltos de línea `'enter'`, espacios ` `, etc. Para escribir un string tenemos que encerrar el texto en comillas simples o dobles, se recomienda según standard js usar simples. Con este tipo de valor podemos representar los textos y hacer operaciones para modificarlos o mostrarlos en pantalla. Es importante que tengamos en cuenta que no es lo mismo un número almacenado como string que un number, JavaScript los va a tratar de manera distinta.
+Las cadenas de texto o strings son las palabras que contienen, letras `a b C D`, signos `: . @`, saltos de línea `'enter'`, espacios ` `, o cualquier carácter valido. Para declarar un string tenemos que escribir el texto entre comillas simples o dobles (se recomienda usar simples). Con este tipo de valor podemos representar los textos y hacer operaciones para modificarlos o mostrarlos en pantalla. Es importante que tengamos en cuenta que no es lo mismo un número almacenado como string que un number, JavaScript los va a tratar de manera distinta.
 
 ```js
 var firstName = 'Juan'
@@ -62,13 +68,13 @@ var numbers = '1 2 3 4 5 setenta y ocho'
 var text = 'The dark side of the moon'
 ```
 
-*Ej: El email que ingresamos como usuario o los textos que escribimos en los muros de facebook*
+*Ej: El email que ingresamos como usuario o los textos que escribimos en los muros de facebook son de tipo string*
 
 ## Indefinido y Nulo - `undefined` y `null`
 
-- Indefinido o undefined es un valor que no arroja JavaScript para indicarnos que el valor al cual queremos acceder aun no fue definido, ya sea porque no se le asigno un valor a la variable o porque queremos acceder a la propiedad de un objeto que no existe. Este tipo de valor suele ser devuelto por el sistema y no tanto ingresado por el usuario.
+- Indefinido o undefined es un valor que nos arroja JavaScript para indicarnos que el valor al cual queremos acceder aun no fue definido, ya sea porque no se le asigno un valor a la variable o porque queremos acceder a la propiedad de un objeto que no existe. Este tipo de valor suele ser devuelto por el sistema y no tanto ingresado por el usuario.
 
-- Nulo o null tiene el mismo significado de undefined en la mayoría de los casos, pero este si suele ser un valor que nosotros asignamos a una variable, para indicar que la misma no contiene nada.
+- Nulo o null tiene el mismo significado que undefined en la mayoría de los casos, pero este si suele ser un valor que nosotros asignamos a una variable, para indicar que la misma no contiene nada.
 
 ```js
 var example1 // En este punto la variable tiene el valor indefinido
@@ -80,7 +86,7 @@ var example2 = null // Acá yo como usuario le asigno el valor nulo
 
 ## Objecto - `object`
 
-Un objeto o object es un contenedor que nos permite agrupar varios tipos de valores juntos, bajo un mismo concepto. Lo valores que pueden contener son todos los permitidos en JavaScript y la forma de acceder es a través de las `key` o llaves del objeto. La forma de declara un objeto es abriendo y cerrando llaves `{ }`, dentro de las llaves se ponen las keys del objeto y con dos puntos `:` se le asignan valores a esas keys.
+Un objeto o object es un contenedor que nos permite agrupar variables juntas bajo un mismo concepto. Lo valores que pueden contener son todos los permitidos en JavaScript y la forma de acceder es a través de las keys o llaves del objeto. Un objeto se declara abriendo y cerrando llaves `{ }`, dentro de las llaves se ponen las keys del objeto y con dos puntos `:` se le asignan valores a esas keys, de la misma manera que usábamos el `=` en las variables. Para acceder a las propiedades de un objeto existen dos maneras, una es el nombre del objeto seguido de un `.` y luego el nombre de la key y la otra forma es el nombre del objeto seguido de `[]` y poniendo dentro de los `[]` el nombre en formato string de la key que queremos acceder.
 
 ```js
 var user = {
@@ -89,22 +95,25 @@ var user = {
   address: 'Calle falsa 1234'
 }
 
-user.firstName // Accedo a la propiedad firstName del objeto usuario
-user.age // Accedo a la propiedad age del objeto usuario
+user.firstName // Accedo a la propiedad firstName del objeto user, devuelve 'Juan'
+user.age // Accedo a la propiedad age del objeto user, devuelve 25
+user['address'] // Accedo a la propiedad address del objeto user, devuelve 'Calle falsa 1234'
 ```
 
-*Ej: Un contacto de la agenda que tiene a su vez información especifica como el nombre, la dirección, el número de teléfono, el cumpleaños, etc...*
+*Ej: Un contacto de la agenda que contiene información como el nombre, la dirección, el número de teléfono, el cumpleaños, etc... de alguien en particular*
 
 ## Arreglo - `array`
 
-Un arreglo o array es un caso particular de un objeto en JavaScript, la particularidad que tiene es que nos permite tener valores ordenado y acceder a ellos mediante la posición en el array. Los array pueden contener cualquier tipo de valor dentro de ellos incluidos otros arrays y es importante tener en cuenta que la posición dentro del array se cuenta empezando por cero.
+Un arreglo o array es un caso particular de un objeto en JavaScript, la particularidad que tiene es que nos permite tener valores ordenado y acceder a ellos mediante la posición en el array. La otra forma de acceder a la propiedades de un array es el nombre del array seguido de `[]` y poniendo dentro de los `[]` la posición en formato number del elemento al cual queremos acceder, es importante tener en cuenta que la posición dentro del array se cuenta empezando por cero. Los array pueden contener cualquier tipo de valor dentro de ellos incluidos otros arrays y objetos.
 
 ```js
 var array = [1,2,'Pedro',false]
 
 array[2] // Esto me devuelve el string 'Pedro'
+
+array[3] // Esto me devuelve el boolean false
 ```
 
-*Ej: La bandeja de entrada del mail que contiene objetos (en este caso mails), ordenados cronológicamente.*
+*Ej: La bandeja de entrada del mail que contiene objetos (en este caso e-mails), ordenados cronológicamente, en realidad lo que nos esta mostrando es un array de e-mails*
 
 [Siguiente tema](01_03_operadores_aritmeticos.md)
