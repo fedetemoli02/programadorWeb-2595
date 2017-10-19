@@ -18,7 +18,7 @@ Para poder declara una variable usamos la palabra reservada `var` seguida de un 
 
 En Javascript no existen los tipo de variables, pero si los tipos de valores que puede contener o tomar una variable, esto es por lo que se lo conoce como un lenguaje débilmente tipado.
 
-## Booleano `(boolean)`
+## Booleano / boolean
 
 Booleano o boolean, solo puede tomar dos valores `true` (verdadero) o `false` (falso). Aunque no se usa tanto como valor de una variable de manera implícita, si muchas veces ciertos valores los convertimos a Booleanos para poder tomar decisiones.
 
@@ -31,7 +31,7 @@ var boolean2 = false
 
 *Ej: La tecla de luz, si esta prendida es `true`, si la apago es `false`.*
 
-## number
+## Número - (number)
 
 Los numero o number son los números que usamos en operaciones matemáticas y pueden ser números enteros `1 2 3`, decimales `3.1416 2.4` y negativos `-5 -8.3`. Este tipo de valores nos sirven para contar o hacer cálculos matemáticos con ellos.
 
