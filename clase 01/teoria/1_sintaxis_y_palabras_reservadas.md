@@ -1,6 +1,7 @@
 # Sintaxis
 
 En javascript como en otros lenguajes de programación existe una sintaxis que es las forma en la cual le damos instrucciones a la computadora para que resuelva un problema.
+
 Un ejemplo de sintaxis bien sencilla es:
 
 ```js
@@ -22,7 +23,7 @@ En este ejemplo le pedimos a la computadora varias cosas:
 
 # Palabras reservadas
 
-En el mismo ejemplo:
+Las palabras reservadas son aquellas que usamos para darle instrucciones al la computadora. Estas palabras no se pueden usar para nombres de variables ni funciones, por eso se llaman reservadas.
 
 ```js
 var firstName
@@ -35,4 +36,4 @@ if( firstName ==='Juan' ){
 
 ```
 
-Vemos algunas palabras como `var` que la usamos para declarar una variable o el `if` que nos permite evaluar una condición booleana. Estas palabras están reservadas solo para darle instrucciones al programa y no pueden ser utilizadas como nombres de variables. También vemos palabras como `alert()` que son llamados a funciones del sistema, estas no son palabras reservadas, pero hay que tener cuidado de no generar nombres de variables que puedan confundirse con estas funciones.
+En el ejemplo vemos algunas palabras como `var` que la usamos para declarar una variable o el `if` que nos permite evaluar una condición booleana. Estas palabras están reservadas solo para darle instrucciones al programa y no pueden ser utilizadas como nombres de variables. También vemos palabras como `alert()` que son llamados a funciones del sistema, estas no son palabras reservadas, pero hay que tener cuidado de no generar nombres de variables que puedan confundirse con estas funciones.
