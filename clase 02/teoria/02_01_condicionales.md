@@ -14,7 +14,7 @@ if(firstName === 'Juan'){
 console.log('Gracias!')
 ```
 
-En este código el `if` evalúa si la variable `firstName` contiene el string 'Juan', si es así muestra en consola 'Tu nombre es Juan'. También vemos que siempre se va a mostrar en consola un 'Gracias!' no importa el valor de `firstName` porque esta por fuera de las llaves `{}` del `if`.
+En este código el `if` evalúa si la variable `firstName` contiene el string `Juan`, si es así muestra en consola `Tu nombre es Juan`. También vemos que siempre se va a mostrar en consola un `Gracias!` no importa el valor de `firstName` porque esta por fuera de las llaves `{}` del `if`.
 
 ## if else
 
@@ -28,7 +28,7 @@ if(firstName === 'Juan'){
 }
 ```
 
-En este código el `if` evalúa si la variable `firstName` contiene el string 'Juan', si es así muestra en consola 'Tu nombre es Juan', en caso contrario muestra en consola 'Tu nombre no es Juan'. Es importante ver que siempre se va a cumplir un caso o el otro, pero es imposible que se cumplan ambos.
+En este código el `if` evalúa si la variable `firstName` contiene el string `Juan`, si es así muestra en consola `Tu nombre es Juan`, en caso contrario muestra en consola `Tu nombre no es Juan`. Es importante ver que siempre se va a cumplir un caso o el otro, pero es imposible que se cumplan ambos.
 
 ## switch
 
@@ -75,7 +75,7 @@ switch (dayOfTheWeek) {
 }
 ```
 
-En este ejemplo siempre que el día ingresado sea Lunes, Martes, Miércoles, Jueves o Viernes se muestra en consola 'Es un día hábil', si ingresó Sábado o Domingo se muestra en consola 'Es un día de fin de semana' y si ingresó cualquier otra cosa se muestra 'El día ingresado no es valido'.
+En este ejemplo siempre que el día ingresado sea Lunes, Martes, Miércoles, Jueves o Viernes se muestra en consola `Es un día hábil`, si ingresó Sábado o Domingo se muestra en consola `Es un día de fin de semana` y si ingresó cualquier otra cosa se muestra `El día ingresado no es valido`.
 
 
 
