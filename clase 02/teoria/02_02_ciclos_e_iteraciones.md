@@ -1,10 +1,10 @@
 # Ciclos
 
-Los ciclos nos permiten repetir una parte del código una N cantidad de veces. Todos los ciclos tienen en común un punto inicial, alguna modificación en cada ciclo y un punto de corte que se evalúa con alguna condición booleana.
+Los ciclos nos permiten repetir una parte del código una cierta cantidad de veces.
 
-## for
+## For
 
-El for se declara usando la palabra reservada `for` seguida de paréntesis y llaves `(){}`, dentro de los paréntesis se coloca una expresión para evaluar y dentro de las llaves la porción de código que se va a ejecutar si la expresión es verdadera. La expresión del expresión del ciclo for tiene tres partes, la inicialización de la variable que se ejecuta solo la primera vez, la condición de corte del ciclo que se evalúa antes de ejecutar cada porción de código y la modificación de la variable que se asigna luego de cada ejecución.
+El For se declara usando la palabra reservada `for` seguida de paréntesis y llaves `(){}`, dentro de los paréntesis se coloca una expresión para evaluar y dentro de las llaves la porción de código que se va a ejecutar si la expresión es verdadera. La expresión del ciclo for tiene tres partes, la inicialización de la variable que se ejecuta solo la primera vez, la condición de corte del ciclo que se evalúa antes de ejecutar cada porción de código y la modificación de la variable que se asigna luego de cada ejecución.
 
 ```js
 for(var i = 1 ; i < 10 ; i++){
@@ -16,7 +16,7 @@ En este ejemplo el ciclo hace lo siguiente:
 
 1. Inicia en cero `var i = 1`.
 2. Verifica que se cumpla la condición booleana `i < 10`.
-3. Ejecuta el código dentro de las llaves imprimiendo en pantalla el valor de la variable `i`.
+3. Ejecuta el código dentro de las llaves imprimiendo en pantalla el valor de la variable `i++`.
 4. Le suma un 1 a la variable `i`.
 5. Repite desde el paso 2 al 4 hasta que la condición booleana no se cumpla y el ciclo corte.
 
@@ -37,9 +37,9 @@ En este ejemplo el ciclo hace lo siguiente:
 
 1. Inicia en cero `var i = 0`, que es la primera posición del array.
 2. Verifica que se cumpla la condición booleana `i < daysOfTheWeek.length`, en este caso el largo del array es 7.
-3. Ejecuta el código dentro de las llaves imprimiendo en pantalla el valor de la variable `day`, que contiene el dia de la semana en la posición i `var day = daysWeek[i]`.
-4. Le suma un 1 a la variable `i`.
+3. Ejecuta el código dentro de las llaves imprimiendo en pantalla el valor de la variable `day`, que contiene el dia de la semana en la esa posición `var day = daysWeek[i]`.
+4. Le suma un 1 a la variable `i++`.
 5. Repite desde el paso 2 al 4 hasta que la condición booleana no se cumpla y el ciclo corte.
 
-Esto da como resultado que se muestre en consola todos los días de la semana que están cargados en el array.
+Esto da como resultado que se muestre en consola todos los días de la semana que están cargados en el array, respetando el orden.
 
