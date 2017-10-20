@@ -1,6 +1,6 @@
 /**
  * Crear un array con todos los dias de la semana
- * Recorrerlos y mostrar cuando sea domingo o sabado un mensaje en consola.
+ * Recorrerlos y mostrar cuando sea domingo o sábado un mensaje en consola.
  */
 
 var daysWeek = ['Lunes', 'Martes', 'Miércoles', 'Jueves', 'Viernes', 'Sábado', 'Domingo']

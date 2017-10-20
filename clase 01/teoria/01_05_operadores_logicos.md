@@ -29,7 +29,7 @@ El operador AND se declara utilizando dos veces el símbolo ampersand `&&` y com
 
 ## OR
 
-El operador AND se declara utilizando dos veces el símbolo barra vertical `||` y compara dos expresiones que puedan ser evaluadas como `true` o `false`. Es importante entender que el valor que retorna es de uno de los dos términos, según la siguiente tabla:
+El operador OR se declara utilizando dos veces el símbolo barra vertical `||` y compara dos expresiones que puedan ser evaluadas como `true` o `false`. Es importante entender que el valor que retorna es de uno de los dos términos, según la siguiente tabla:
 
 
 | Expresión 1   | Expresión 2   | Resultado   -> Booleano  |

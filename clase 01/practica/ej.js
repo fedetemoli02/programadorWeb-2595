@@ -34,6 +34,6 @@ var number5 = prompt('Escribí un número:', 'Ej: 8')
 
 var resultado = parseFloat(number4, 10) + parseFloat(number5, 10)
 
-alert('La suma de los dos números que ingresate es: ' + resultado + ' !')
+alert('La suma de los dos números que ingresaste es: ' + resultado + ' !')
 
 alert('Completaste el ejercicio !')
