@@ -1,4 +1,4 @@
-# Curso de Programador Web - Camada 2595
+# Curso de Programador Web - Camada 2595 💾
 
 Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos, por cada una les voy a agregar una carpeta con el numero de la clase y adentro van a encontrar:
 
@@ -8,6 +8,6 @@ Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos
 
 - Una carpeta `teoria` en la cual les voy a incluir info adicional para que puedan repasar o reforzar los temas que vamos viendo en clase. Algunas cosas son ayuda memoria y otros links a artículos o páginas que les puedan servir para reforzar temas. Si hay algo que no encuentran ahí las mejores páginas para ver documentación sobre cosas de JavaScript son [w3schools](https://www.w3schools.com/) y [MDN - Mozilla Developer Network](https://developer.mozilla.org/es/), después también tienen la página de [jQuery](https://jquery.com/) para la segunda parte del curso.
 
-Cada vez que actualice la info les voy a avisar por Slack, pero el repositorio va a ser siempre el mismo para que no sea un lío. 
+Cada vez que actualice la info les voy a avisar por Slack, pero el repositorio va a ser siempre el mismo para que no sea un lío. 🤓
 
-Cualquier duda o material extra que precisen me van preguntado, éxitos! 🤓
+Cualquier duda o material extra que precisen me van preguntado, éxitos! 😁
