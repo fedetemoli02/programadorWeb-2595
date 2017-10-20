@@ -1,4 +1,4 @@
-# Curso de Programador Web - Camada 2595 💾
+# Curso de Programador Web - Camada 2595  💾
 
 Buenas, les arme este repositorio para ir subiendo cada clase que hagamos juntos, por cada una les voy a agregar una carpeta con el numero de la clase y adentro van a encontrar:
 
