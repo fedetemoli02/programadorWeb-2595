@@ -92,30 +92,4 @@ var number = 5
 
  > Nota: La tabla [ASCII](http://www.elcodigoascii.com.ar/) diferencia minúsculas de mayúsculas, tiene también otros caracteres como saltos de linea o espacios y esta pensada para el alfabeto inglés. Por lo cual las tildes, la ñ, u otros caracteres no necesariamente respetan la posición del alfabeto Español.
 
-## Negación - NOT
-
-El operador de negación evalúa una sentencia de un solo termino, si la evaluación es true devuelve false y si la evaluación es false devuelve true.
-En JavaScript hay una lista de valores que al evaluarlos devuelven false, los que no están en esta lista devuelven true.
-
-### Lista de falsos - falsy list
-
-- El string vacío `''`
-- El número cero `0` o menos cero `-0`
-- El símbolo `NaN`
-- El nulo `null` o indefinido `undefined`
-- El falso `false`
-
-
-```js
-!false // Devuelve true
-
-!null // Devuelve true
-
-!!'' // Devuelve false, porque niega el '' convirtiéndolo en true y luego lo vuelve a negar a false
-
-!'Hola' // Devuelve false
-
-!('Hola' === 'Hola')// Devuelve false, porque el estrictamente igual devuelve true y luego la negación lo convierte en false
-```
-
-
+[Siguiente tema](01_05_operadores_logicos.md)
