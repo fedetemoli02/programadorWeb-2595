@@ -9,7 +9,7 @@ El operador AND se declara utilizando dos veces el símbolo ampersand `&&` y com
 
 
 | Expresión 1   | Expresión 2   | Resultado   -> Booleano  |
-| ------------- |:-------------:| ------------------------:|
+| :-----------: |:-------------:| :----------------------- |
 | `true`        | `true`        | Expresión 2 -> `true`    |
 | `true`        | `false`       | Expresión 2 -> `false`   |
 | `false`       | `true`        | Expresión 1 -> `false`   |
@@ -33,7 +33,7 @@ El operador AND se declara utilizando dos veces el símbolo barra vertical `||` 
 
 
 | Expresión 1   | Expresión 2   | Resultado   -> Booleano  |
-| ------------- |:-------------:| ------------------------:|
+| :-----------: |:-------------:| :----------------------- |
 | `true`        | `true`        | Expresión 1 -> `true`    |
 | `true`        | `false`       | Expresión 1 -> `true`    |
 | `false`       | `true`        | Expresión 2 -> `true`    |
