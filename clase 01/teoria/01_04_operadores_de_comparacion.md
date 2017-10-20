@@ -4,7 +4,7 @@ Los operadores de comparación permiten comparar elementos y arrojar un resultad
 
 ## Estrictamente igual - strict equality
 
-El operador estrictamente igual `===` recibe dos parámetros y los compara, si ambos son iguales tanto es su valor como en su tipo devuelve true, sino false.
+El operador estrictamente igual `===` recibe dos parámetros y los compara, si ambos son iguales tanto es su valor como en su tipo devuelve true, sino false. En el caso de objetos y arrays los compara por el lugar al que apuntan, por lo cual solo son iguales si apuntan al mismo objeto.
 
 ```js
 var firstName = 'Juan'
@@ -17,11 +17,19 @@ number === '1234' // Esto da como resultado false porque aunque parecen similare
 
 var result = 'FF5733' === 'FF5733' // Devuelve true porque ambas cadenas de caracteres son iguales y luego le asigna true a result
 
+{} === {} // Devuelve false porque no son la misma referencia.
+
+var obj1 = {}
+
+var obj2 = obj1
+
+obj1 === obj2 // Devuelve true, porque apuntan al mismo objeto
+
 ```
 
 ## Estrictamente desigual - strict not equal
 
-El operador estrictamente desigual `!==` recibe dos parámetros y los compara, si ambos son iguales tanto es su valor como en su tipo devuelve false, sino true.
+El operador estrictamente desigual `!==` recibe dos parámetros y los compara, si ambos son iguales tanto es su valor como en su tipo devuelve false, sino true. En el caso de objetos y arrays los compara por el lugar al que apuntan, por lo cual solo son iguales si apuntan al mismo objeto.
 
 ```js
 var number = 1234
@@ -31,6 +39,14 @@ number !== '1234' // Esto da como resultado true porque aunque parecen similares
 var firstName = 'Juan'
 
 firstName !== 'Juan' // Esto da como resultado false, porque tanto el valor 'Juan', como el tipo de valor string coinciden.
+
+{} === {} // Devuelve true porque no son la misma referencia.
+
+var obj1 = {}
+
+var obj2 = obj1
+
+obj1 === obj2 // Devuelve false, porque apuntan al mismo objeto
 
 ```
 
