@@ -4,12 +4,12 @@
 ​
 1. Crear una función que reciba como argumento nombre y apellido y lo muestre en la consola.
 
-   Paso a paso sería:
-- Pedir el nombre y guardarlo en una variable `firstName`.
-- Pedir el apellido y guardarlo en un variable `lastName`.
-- Definir una función que reciba dos argumentos, nombre `firstName` y apellido `lastName` y que devuelva como resultado un mensaje en consola con los dos argumentos que recibió.
-- Llamar a la función que definimos previamente y pasar como parámetros las variables `firstName` y `lastName`.
-- Chequear el resultado en consola.
+  Paso a paso sería:
+  - Pedir el nombre y guardarlo en una variable `firstName`.
+  - Pedir el apellido y guardarlo en un variable `lastName`.
+  - Definir una función que reciba dos argumentos, nombre `firstName` y apellido `lastName` y que devuelva como resultado un mensaje en consola con los dos argumentos que recibió.
+  - Llamar a la función que definimos previamente y pasar como parámetros las variables `firstName` y `lastName`.
+  - Chequear el resultado en consola.
 
 2. Crear una función que reciba un argumento dia de la semana `dayOfTheWeek` y devuelve como resultado un string que indica `Es día hábil`, `Fin de semana` o `Día incorrecto`. Luego pedirle al usuario que ingrese tres veces un  día de la semana y por cada uno mostrarle un alerta con el mensaje que devuelve la función. 
 
