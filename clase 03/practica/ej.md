@@ -4,7 +4,7 @@
 ​
 1. Crear una función que reciba como argumento nombre y apellido y lo muestre en la consola.
 
-Paso a paso sería:
+   Paso a paso sería:
 - Pedir el nombre y guardarlo en una variable `firstName`.
 - Pedir el apellido y guardarlo en un variable `lastName`.
 - Definir una función que reciba dos argumentos, nombre `firstName` y apellido `lastName` y que devuelva como resultado un mensaje en consola con los dos argumentos que recibió.
