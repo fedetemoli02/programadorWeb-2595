@@ -1,7 +1,7 @@
 /**
- * Deberá poder ingresar un dia de la semana
+ * Deberá poder ingresar un día de la semana
  * Deberá poder compararlo con todos los dias de la semana
- * Deberá evaluar si es un dia de semana y fin de semana mediante un mensaje similar a 'El día es hábil' sino 'El dia es fin de semana';
+ * Deberá evaluar si es un día de semana y fin de semana mediante un mensaje similar a 'El día es hábil' sino 'El dia es fin de semana';
  * En caso de encontrar el día utilizar la sentencia break y terminar el for
  */
 
