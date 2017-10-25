@@ -54,10 +54,10 @@ console.log('Clase 04')
 // console.log('Hola ' + newUser.getFirstName())
 // console.log('Hola ' + newUser.getModified())
 
-var week = ['Lunes', 'Martes', 'Miércoles']
+// var week = ['Lunes', 'Martes', 'Miércoles']
 
-var dayOfTheWeek = prompt('Ingresá un día')
+// var dayOfTheWeek = prompt('Ingresá un día')
 
-week.push(dayOfTheWeek)
+// week.push(dayOfTheWeek)
 
-console.log(week)
+// console.log(week)

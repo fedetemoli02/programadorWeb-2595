@@ -94,30 +94,30 @@ console.log('Clase 03')
 // var newConsoleLog = newConsole()
 
 // newConsoleLog.log('Juan')
-var app = (function() {
-  var sum = function(value1, value2) {
-    var parsedValue1 = paseNumber(value1)
-    var parsedValue2 = paseNumber(value2)
-    return parsedValue1 + parsedValue2
-  }
+// var app = (function() {
+//   var sum = function(value1, value2) {
+//     var parsedValue1 = paseNumber(value1)
+//     var parsedValue2 = paseNumber(value2)
+//     return parsedValue1 + parsedValue2
+//   }
 
-  var showMessage = function(firstName) {
-    console.log('Hola ' + firstName)
-  }
+//   var showMessage = function(firstName) {
+//     console.log('Hola ' + firstName)
+//   }
 
-  function paseNumber(value1) {
-    var parsedValue1 = parseFloat(value1, 10)
-    return parsedValue1
-  }
+//   function paseNumber(value1) {
+//     var parsedValue1 = parseFloat(value1, 10)
+//     return parsedValue1
+//   }
 
-  return {
-    sum: sum,
-    showMessage: showMessage
-  }
-})()
+//   return {
+//     sum: sum,
+//     showMessage: showMessage
+//   }
+// })()
 
-var result = app.sum(2, 7)
+// var result = app.sum(2, 7)
 
-console.log(result)
+// console.log(result)
 
-app.showMessage('Carlos')
+// app.showMessage('Carlos')
