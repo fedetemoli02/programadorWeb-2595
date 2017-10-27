@@ -1,1 +1,1 @@
-console.log('Clase 00')
+console.log('Clase 06')
