@@ -7,11 +7,13 @@
 1. Crear una función `removeDiacritics` que reciba como parámetro `studentName` y realice los siguientes pasos:
     1. Verifique que `studentName` sea un string, en caso contrario devolver false usando `typeof`.
     2. Usar el método `toUpperCase` para cambiar el string a mayúsculas y guardar el resultado en una variable `studentNameUpperCase`.
-    3. Usar el método `replace` para reemplazar las vocales con acentos `Á É Í Ó Ú` por las vocales sin acentos `A E I O U` y guardar el resultado en una variable `studentNameUpperCaseNoDiacritics`. En este punto tener en cuenta que cada palabra tiene como máximo un acento, por lo cual con usar el método una vez por cada vocal nos aseguramos que no quede ninguno.
+    3. Usar el método `replace` para reemplazar las vocales con acentos `Á É Í Ó Ú` por las vocales sin acentos `A E I O U` y guardar el resultado en una variable `studentNameUpperCaseNoDiacritics`. En este punto tener en cuenta que cada palabra tiene como máximo un acento, por lo cual con usar el método una vez por cada vocal nos aseguramos que no quede ninguno. Hay reemplazar de a una vocal a la vez y luego sobre el resultado reemplazar la siguiente.
     4. Devolver el valor de la variable `studentNameUpperCaseNoDiacritics`.
 
 [typeof](https://www.w3schools.com/js/js_datatypes.asp)
+
 [Método replace](https://www.w3schools.com/jsref/jsref_replace.asp)
+
 [Método toUpperCase](https://www.w3schools.com/jsref/jsref_touppercase.asp)
 
 ## Crear una función que me permita saber si un nombre de un alumno se encuentra en un array.
@@ -24,7 +26,9 @@
    3. Buscar el string `studentName` en el array `studentsList` y devolver `true` si lo encontró y `false` en caso contrario, usando el método `indexOf`.
 
 [typeof](https://www.w3schools.com/js/js_datatypes.asp)
+
 [Método isArray](https://www.w3schools.com/jsref/jsref_isarray.asp)
+
 [Método indexOf](https://www.w3schools.com/jsref/jsref_indexof_array.asp)
 
 ## Crear un función que permita encontrar un alumno en un array sin importar si el alumno tiene mayúsculas, minúsculas o acentos
