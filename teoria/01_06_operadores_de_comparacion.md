@@ -108,4 +108,4 @@ var number = 5
 
  > Nota: La tabla [ASCII](http://www.elcodigoascii.com.ar/) diferencia minúsculas de mayúsculas, tiene también otros caracteres como saltos de linea o espacios y esta pensada para el alfabeto inglés. Por lo cual las tildes, la ñ, u otros caracteres no necesariamente respetan la posición del alfabeto Español.
 
-[Siguiente tema](01_05_operadores_logicos.md)
+[Siguiente tema](01_07_operadores_logicos.md)

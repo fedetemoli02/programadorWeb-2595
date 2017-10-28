@@ -75,3 +75,5 @@ En JavaScript hay una lista de valores que al evaluarlos devuelven false, los qu
 
 !('Hola' === 'Hola')// Devuelve false, porque el estrictamente igual devuelve true y luego la negación lo convierte en false
 ```
+
+[Siguiente tema](02_01_condicionales.md)

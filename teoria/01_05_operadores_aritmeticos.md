@@ -154,4 +154,4 @@ var text = 'Hola'
 text-- // La variable text queda con el valor NaN
 ```
 
-[Siguiente tema](01_04_operadores_de_comparacion.md)
+[Siguiente tema](01_06_operadores_de_comparacion.md)

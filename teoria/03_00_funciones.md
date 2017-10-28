@@ -67,3 +67,5 @@ console.log(text) // Muestra en consola el string 'Hola Monica Perez'
 
 ## Funciones auto invocadas
 
+En construcción...
+

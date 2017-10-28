@@ -20,6 +20,6 @@
 Un taza de un buen café! 
 
 
-[Siguiente tema](01_01_sintaxis_y_palabras_reservadas.md)
+[Siguiente tema](01_01_sintaxis.md)
 
 

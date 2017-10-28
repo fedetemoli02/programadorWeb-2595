@@ -1,27 +1,3 @@
-# Variables
-
-Las variables en JavaScript sirven para almacenar datos de distintos tipos y tiene la particularidad de que puede modificarse su contenido a lo largo de la ejecución del programa. Si nosotros escribimos un string `'Hola mundo'` el mismo es inmutable, pero si este `'Hola mundo'` se lo asignamos a una variable lo podemos modificar mas adelante en el programa.
-Un ejemplo de una variable y su modificación es:
-
-```js
-var firstName 
-
-firstName = 'Juan'
-
-firstName = 'Pedro'
-
-```
-
-Para poder declara una variable usamos la palabra reservada `var` seguida de un espacio y luego el nombre de la variable, que puede empezar con una letra mayúscula o minúscula `a b c D E`, un guion bajo `_` o un signo pesos `$`, luego de la primer letra también podemos usar números `1 2 67`. En este caso usamos el nombre 'firstName', luego de la declaración le asignamos el string 'Juan' y luego modificamos o 'pisamos' ese valor asignando el string 'Pedro'.
-
-Esta declaración y asignación también puede realizarse en un solo paso
-
-```js
-var lastName = 'Perez'
-```
-
----
-
 # Tipos de valores
 
 En JavaScript no existen los tipo de variables, pero si los tipos de valores que puede contener o tomar una variable, esto es por lo que se lo conoce como un lenguaje débilmente tipado.
@@ -116,4 +92,4 @@ array[3] // Esto me devuelve el boolean false
 
 *Ej: La bandeja de entrada del mail que contiene objetos (en este caso e-mails), ordenados cronológicamente, en realidad lo que nos esta mostrando es un array de e-mails*
 
-[Siguiente tema](01_03_operadores_aritmeticos.md)
+[Siguiente tema](01_05_operadores_aritmeticos.md)
