@@ -1,5 +1,3 @@
-console.log('Clase 05')
-
 var studentsList = [
   'CARLOS',
   'GERONIMO',
