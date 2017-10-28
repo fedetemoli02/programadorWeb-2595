@@ -12,16 +12,16 @@ var studentsList = ['CARLOS','GERONIMO','NICOLAS','LUCAS','MARIA','FEDERICO','AN
 
 0. Guardar una lista inicial en el localStorage siguiendo los siguientes pasos:
    1. Usar el método `JSON.stringify`, pasar como parámetro la lista `studentsList` (de datos iniciales) y guardar el resultado en una variable `parsedList`.
-   2. Usar el método `localStorage.setItem` y pasar como parámetros la key `savedList` y `parsedList`.
+   2. Usar el método `localStorage.setItem` y pasar como parámetros la key `'savedList'` y `parsedList`.
 
 - Paso a paso:
 
 1. Crear una función `saveNameLocalStorage` que reciba como parámetro `studentName` y realice los siguientes pasos:
-   1. Usar el método `localStorage.getItem`, pasar como parámetro la key `savedList` y guardar el resultado en la variable `temporalList`, en caso de no recibir nada asignarle el valor `[]` a `temporalList`.
+   1. Usar el método `localStorage.getItem`, pasar como parámetro la key `'savedList'` y guardar el resultado en la variable `temporalList`, en caso de no recibir nada asignarle el valor `[]` a `temporalList`.
    2. Usar el método `JSON.parse` pasar como parámetro `temporalList` y guardar el resultado en la variable `temporalList`.
    3. Agregar `studentName` en `temporalList` usando el método `push`.
    4. Usar el método `JSON.stringify`, pasar como parámetro la lista `temporalList` y guardar el resultado en una variable `parsedList`.
-   5. Usar el método `localStorage.setItem` y pasar como parámetros la key `savedList` y `parsedList`.
+   5. Usar el método `localStorage.setItem` y pasar como parámetros la key `'savedList'` y `parsedList`.
 
 
 
