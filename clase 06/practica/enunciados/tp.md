@@ -20,7 +20,7 @@ var studentsList = ['CARLOS','GERONIMO','NICOLAS','LUCAS','MARIA','FEDERICO','AN
 1. Crear una función `removeNameLocalStorage` que reciba como parámetro `studentName` y realice los siguientes pasos:
    1. Usar el método `localStorage.getItem`, pasar como parámetro la key `'savedList'` y guardar el resultado en la variable `temporalList`, en caso de no recibir nada asignarle el valor `[]` a `temporalList`.
    2. Usar el método `JSON.parse` pasar como parámetro `temporalList` y guardar el resultado en la variable `temporalList`.
-   3. Usar la función `searchStudentPro` de la clase 05 para encontrar la posición del estudiante en le lista y guardar el valor en la variable `studentIndex`.
+   3. Usar la función `searchStudentPro` de la clase 05 para encontrar la posición del estudiante en la lista y guardar el valor en la variable `studentIndex`.
    4. Si `studentIndex` es distinto de `false` usar la función `splice` para eliminar el elemento del array `temporalList`, sino no hacer nada y seguir con los otros pasos.
    5. Usar el método `JSON.stringify`, pasar como parámetro la lista `temporalList` y guardar el resultado en una variable `parsedList`.
    6. Usar el método `localStorage.setItem` y pasar como parámetros la key `'savedList'` y `parsedList`.
@@ -29,6 +29,9 @@ var studentsList = ['CARLOS','GERONIMO','NICOLAS','LUCAS','MARIA','FEDERICO','AN
 
 
 [JSON.parse](https://www.w3schools.com/js/js_json_parse.asp)
+
 [JSON.stringify](https://www.w3schools.com/js/js_json_stringify.asp)
+
 [localStorage](https://developer.mozilla.org/es/docs/Web/API/Window/localStorage)
+
 [splice](https://www.w3schools.com/jsref/jsref_splice.asp)
