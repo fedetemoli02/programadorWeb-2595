@@ -41,7 +41,7 @@ function removeNameLocalStorage (studentName) {
 
   var search = searchStudentPro(studentName, temporalList)
 
-  if (!search) {
+  if (search !== false) {
     temporalList.splice(search, 1)
   }
 
