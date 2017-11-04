@@ -38,10 +38,10 @@ console.log('Clase 07')
 
 // superContainer.removeChild(container)
 
-var students = [ 'Mateo', 'Lucas', 'Mariel', 'Florencia' ]
+// var students = [ 'Mateo', 'Lucas', 'Mariel', 'Florencia' ]
 
-var ul = showUlLists.createStudentsList(students)
+// var ul = showUlLists.createStudentsList(students)
 
-var container = document.getElementById('container')
+// var container = document.getElementById('container')
 
-container.appendChild(ul)
+// container.appendChild(ul)
