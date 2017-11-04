@@ -11,12 +11,12 @@ function sayHello () {
   console.log('Hola!')
 }
 
-var result = sayHello() // Muestra en consola el string 'Hola!' y asigna undefined a la variable result1
-
 sayHello() // Muestra en consola el string 'Hola!'
+
+var result = sayHello() // Muestra en consola el string 'Hola!' y asigna undefined a la variable result1
 ```
 
-> La función `sayHello` no recibe argumentos y cuando es invocada devuelve `undefined` que en el primer caso se lo asigno a `result` y en el segundo solo la invoco sin asignar. En ambos casos muestra en consola `Hola!`.
+> La función `sayHello` no recibe argumentos y cuando es invocada devuelve `undefined` que en el segundo caso se lo asigno a `result` y en el segundo solo la invoco sin asignar. En ambos casos muestra en consola `Hola!`.
 
 ## Función con argumentos de entrada, pero sin valores de retorno
 
@@ -65,7 +65,31 @@ console.log(text) // Muestra en consola el string 'Hola Monica Perez'
 
 > La función `message` recibe como argumentos `firstName` y `lastName` y devuelve un string con un mensaje de saludo, en este caso `Hola Monica Perez`.
 
-## Funciones auto invocadas
+## Funciones inmediatamente invocadas - IIFE
 
-En construcción...
+Este tipo de funciones tienen como particularidad de que son definidas y llamadas en el mismo momento. Esto se logra encerrando la función entre paréntesis y luego llamandola abriendo y cerrando paréntesis `()`.
+
+## Función IIFE sin argumentos de entrada ni valores de retorno
+
+```js
+;(function() {
+  
+  console.log('Hola')
+
+})() // Esto muestra en consola un 'Hola'
+```
+
+## Función IIFE sin argumentos de entrada pero con valor de retorno
+
+Cuando una IIFE es guardada en una variable y tiene valor de retorno, lo que se asgina a la variable es el valor de retorno.
+
+```js
+var message = (function() {
+
+  return 'Hola mundo'
+
+})() // Esto asigna el string 'Hola mundo' a la variable message
+```
+
+> En este ejemplo lo que sucede es que la función se ejecuta inmediatamente y valor devuelto por el return, en este caso el string `Hola mundo` es asignado a la variable message.
 

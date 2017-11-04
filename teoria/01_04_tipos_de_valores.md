@@ -17,7 +17,7 @@ var boolean2 = false
 
 ## Número - `number`
 
-Los numero o number son los números que usamos en operaciones matemáticas y pueden ser números enteros incluido el cero `0 1 2 3`, decimales `3.1416 2.4` y negativos `-5 -8.3`. Este tipo de valores nos sirven para contar o hacer cálculos matemáticos con ellos.
+Número o number son los números que usamos en operaciones matemáticas y pueden ser números enteros incluido el cero `0 1 2 3`, decimales `3.1416 2.4` y negativos `-5 -8.3`. Este tipo de valores nos sirven para contar o hacer cálculos matemáticos con ellos.
 
 ```js
 var intNumber = 3
@@ -28,11 +28,11 @@ var negativeFloatNumber = -5.4
 
 ```
 
-*Ej: Una calculadora que almacena valores de tipo numérico para hacer las operaciones.*
+*Ej: Una calculadora almacena valores de tipo number para hacer las operaciones.*
 
 ## Cadena de texto - `string`
 
-Las cadenas de texto o strings son las palabras que contienen, letras `a b C D`, signos `: . @`, saltos de línea `'enter'`, espacios ` `, o cualquier carácter valido. Para declarar un string tenemos que escribir el texto entre comillas simples o dobles (se recomienda usar simples). Con este tipo de valor podemos representar los textos y hacer operaciones para modificarlos o mostrarlos en pantalla. Es importante que tengamos en cuenta que no es lo mismo un número almacenado como string que un number, JavaScript los va a tratar de manera distinta.
+Las cadenas de texto o strings son las palabras que contienen, letras `a b C D`, signos `: . @`, saltos de línea `enter`, espacios ` `, o cualquier carácter valido. Para declarar un string tenemos que escribir el texto entre comillas simples o dobles (se recomienda usar simples según [STJS](https://standardjs.com/)). Con este tipo de valor podemos representar los textos y hacer operaciones para modificarlos o mostrarlos en pantalla. Es importante que tengamos en cuenta que no es lo mismo un número almacenado como string que un number, JavaScript los va a tratar de manera distinta.
 
 ```js
 var firstName = 'Juan'

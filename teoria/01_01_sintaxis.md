@@ -11,7 +11,7 @@ firstName = 'Juan'
 
 console.log('Hola ' + firstName) // Resultado
 ```
-
+cancion
 
 En este ejemplo le pedimos a la computadora varias cosas:
 
@@ -21,6 +21,6 @@ En este ejemplo le pedimos a la computadora varias cosas:
 
 3. Que muestre en consola `'Hola '` seguido del string almacenado en la variable `firstName`, dando como resultado `'Hola Juan'`. Esto se logra escribiendo `console.log()` y poniendo dentro de los paréntesis el string que queremos mostrar en pantalla.
 
-4. También podemos observar un texto libre que esta escrito luego de dos barras `//`, esto es JavaScript es un comentario y es solo informativo la computadora lo saltea.
+4. También podemos observar un texto libre que esta escrito luego de dos barras `//`, esto en JavaScript es un comentario y es solo informativo la computadora lo saltea.
 
 [Siguiente tema](01_02_palabras_reservadas.md)
