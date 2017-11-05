@@ -20,7 +20,7 @@ La declaración y asignación de un variable también puede realizarse en un sol
 var firstName = 'Juan'
 ```
 
-> Es importante ser descriptivos con los nombres de nuestras variables y que representen lo que van a contener. No es lo mismo una variable que se llame `firstName` que una que se llame `fN`, en la primera es bien claro que va a contener un nombre mientras que la segunda puede interpretarse otra cosa. 
+> Es importante ser descriptivos con los nombres de nuestras variables y que representen lo que van a contener. No es lo mismo que una variable se llame `firstName` o `fN`, en la primera es bien claro que va a contener un nombre mientras que la segunda puede interpretarse otra cosa. 
 Los caracteres no se cobran en JavaScript así que úsenlos tranquilos. 😛
 
 [Siguiente tema](01_04_tipos_de_valores.md)
