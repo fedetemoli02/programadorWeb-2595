@@ -1,8 +1,8 @@
 askMovieData()
 
-askMovieData()
+// askMovieData()
 
-askMovieData()
+// askMovieData()
 
 function askMovieData () {
   var title = prompt('Ingrese el nombre de una película')
