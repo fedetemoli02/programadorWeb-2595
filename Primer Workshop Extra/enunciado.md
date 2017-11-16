@@ -11,5 +11,3 @@
 Recursos:
 
 [Listas Bootstrap](https://getbootstrap.com/docs/4.0/components/list-group/)
-
-[Resultado](https://www.useloom.com/share/bf94c68241244026ab38e046f9006b0f)
