@@ -60,7 +60,21 @@ var example2 = null // Acá yo como usuario le asigno el valor nulo
 
 > Ej: Cuando no ingresamos nada en un `prompt()`, el valor que nos devuelve es `undefined`. También una variable sin valor asignado da `undefined`.
 
-## Objecto - `object`
+## Arreglo - `array`
+
+Un arreglo o array es un caso particular de un objeto en JavaScript, que nos permite tener valores ordenado y acceder a ellos mediante la posición. La otra forma de acceder a la propiedades de un array es el nombre del array seguido de `[]` y poniendo dentro la posición en formato number del elemento al cual queremos acceder, es importante tener en cuenta que la posición dentro del array se cuenta empezando por cero. Los array pueden contener cualquier tipo de valor dentro de ellos incluidos otros arrays y objetos.
+
+```js
+var array = [1,2,'Pedro',false]
+
+array[2] // Esto me devuelve el string 'Pedro'
+
+array[3] // Esto me devuelve el boolean false
+```
+
+> Ej: La bandeja de entrada del e-mail contiene objetos ,en este caso e-mails, ordenados cronológicamente.
+
+## Objeto - `object`
 
 Un objeto o object es un contenedor que nos permite agrupar variables juntas bajo un mismo concepto. Los valores que pueden contener son todos los permitidos en JavaScript y la forma de acceder es a través de las keys o llaves del objeto. Un objeto se declara abriendo y cerrando llaves `{ }`, dentro de las llaves se ponen las keys del objeto y con dos puntos `:` se le asignan valores a esas keys, de la misma manera que usábamos el `=` en las variables. Para acceder a las propiedades de un objeto existen dos maneras, una es el nombre del objeto seguido de un `.` y luego el nombre de la key y la otra forma es el nombre del objeto seguido de `[]` y poniendo dentro de los `[]` el nombre en formato string de la key que queremos acceder.
 
@@ -78,18 +92,6 @@ user['address'] // Accedo a la propiedad address del objeto user, devuelve 'Call
 
 > Ej: Un contacto de la agenda que contiene información como el nombre, la dirección, el número de teléfono, el cumpleaños, etc. de alguien en particular es un objeto
 
-## Arreglo - `array`
 
-Un arreglo o array es un caso particular de un objeto en JavaScript, que nos permite tener valores ordenado y acceder a ellos mediante la posición. La otra forma de acceder a la propiedades de un array es el nombre del array seguido de `[]` y poniendo dentro la posición en formato number del elemento al cual queremos acceder, es importante tener en cuenta que la posición dentro del array se cuenta empezando por cero. Los array pueden contener cualquier tipo de valor dentro de ellos incluidos otros arrays y objetos.
-
-```js
-var array = [1,2,'Pedro',false]
-
-array[2] // Esto me devuelve el string 'Pedro'
-
-array[3] // Esto me devuelve el boolean false
-```
-
-> Ej: La bandeja de entrada del e-mail contiene objetos ,en este caso e-mails, ordenados cronológicamente.
 
 [Siguiente tema](01_05_operadores_aritmeticos.md)

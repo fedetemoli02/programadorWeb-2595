@@ -4,7 +4,7 @@ Los operadores de comparación permiten comparar elementos y arrojar un resultad
 
 ## Estrictamente igual - strict equality
 
-El operador estrictamente igual `===` recibe dos parámetros y los compara, si ambos son iguales tanto es su valor como en su tipo devuelve true, sino false. En el caso de objetos y arrays los compara por el lugar al que apuntan, por lo cual solo son iguales si apuntan al mismo objeto.
+El operador estrictamente igual `===` recibe dos parámetros y los compara, si ambos son iguales tanto es su valor como en su tipo devuelve `true`, en caso contrario `false`. Los objetos y arrays los compara por el lugar al que apuntan, por lo cual solo son iguales si apuntan al mismo objeto.
 
 ```js
 var firstName = 'Juan'
@@ -29,7 +29,7 @@ obj1 === obj2 // Devuelve true, porque apuntan al mismo objeto
 
 ## Estrictamente desigual - strict not equal
 
-El operador estrictamente desigual `!==` recibe dos parámetros y los compara, si ambos son iguales tanto es su valor como en su tipo devuelve false, sino true. En el caso de objetos y arrays los compara por el lugar al que apuntan, por lo cual solo son iguales si apuntan al mismo objeto.
+El operador estrictamente desigual `!==` recibe dos parámetros y los compara, si ambos son iguales tanto es su valor como en su tipo devuelve `false`, en caso contrario `true`. Los objetos y arrays los compara por el lugar al que apuntan, por lo cual solo son iguales si apuntan al mismo objeto.
 
 ```js
 var number = 1234
@@ -52,7 +52,7 @@ obj1 === obj2 // Devuelve false, porque apuntan al mismo objeto
 
 ## Mayor  - greater than operator
 
-El operador mayor `>` devuelve true si el número de la izquierda es mayor que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es mayor si tiene una posición posterior en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
+El operador mayor `>` devuelve `true` si el número de la izquierda es mayor al de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado `false`. En el caso de comparar dos string hace una comparación carácter por carácter que es mayor si tiene una posición posterior en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
 
 ```js
 var number = 5
@@ -68,7 +68,7 @@ var number = 5
 ## Mayor igual - greater than or equal operator
 
 
-El operador mayor igual `>=` devuelve true si el número de la izquierda es mayor o igual que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es mayor o igual si tiene una posición posterior o igual en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
+El operador mayor igual `>=` devuelve true si el número de la izquierda es mayor o igual que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string hace una comparación carácter por carácter que es mayor o igual si tiene una posición posterior o igual en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
 
 ```js
 var number = 5
@@ -81,7 +81,7 @@ var number = 5
 
 ## Menor  - less than operator
 
-El operador menor `<` devuelve true si el número de la izquierda es menor que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es menor si tiene una posición anterior en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
+El operador menor `<` devuelve true si el número de la izquierda es menor que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string hace una comparación carácter por carácter que es menor si tiene una posición anterior en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
 
 ```js
 var number = 5
@@ -95,7 +95,7 @@ var number = 5
 ## Menor igual - less than or equal operator
 
 
-El operador menor igual `<=` devuelve true si el número de la izquierda es menor o igual que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string el string es menor o igual si tiene una posición anterior o igual en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
+El operador menor igual `<=` devuelve true si el número de la izquierda es menor o igual que el de la derecha. En caso de comparar un string con un number va a tratar de convertir el string en un number y luego hacer la comparación, si falla al convertir el string va a dar como resultado false. En el caso de comparar dos string hace una comparación carácter por carácter que es menor o igual si tiene una posición anterior o igual en la tabla [ASCII](http://www.elcodigoascii.com.ar/) que el otro.
 
 ```js
 var number = 5
