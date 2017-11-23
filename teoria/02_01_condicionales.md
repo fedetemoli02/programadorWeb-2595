@@ -28,7 +28,7 @@ if(firstName === 'Juan'){
 }
 ```
 
-En este código el `if` evalúa si la variable `firstName` contiene el string `Juan`, si es así muestra en consola `Tu nombre es Juan`, en caso contrario muestra en consola `Tu nombre no es Juan`. Es importante ver que siempre se va a cumplir un caso o el otro, pero es imposible que se cumplan ambos.
+> En este código el `if` evalúa si la variable `firstName` contiene el string `Juan`, si es así muestra en consola `Tu nombre es Juan`, en caso contrario muestra en consola `Tu nombre no es Juan`. Es importante ver que siempre se va a cumplir un caso o el otro, pero es imposible que se cumplan ambos.
 
 ## Switch
 
@@ -51,9 +51,9 @@ switch (resultOfGame) {
 }
 ```
 
-En el ejemplo vemos como el valor que se ingresa es el resultado de un partido de fútbol `resultOfGame` y según cual sea se muestra en consola los puntos ganados, también dejamos el caso `default` por si el usuario se equivoca al ingresar el resultado.
+> En el ejemplo vemos como el valor que se ingresa es el resultado de un partido de fútbol `resultOfGame` y según cual sea se muestra en consola los puntos ganados por el jugardor. También dejamos el caso `default` por si el usuario se equivoca al ingresar el resultado.
 
-Cuando multiples casos deben ejecutar el mismo código lo que se hace es poner los casos `case` uno a continuación del otro y dejando luego del ultimo el código a ejecutar, como en el siguiente ejemplo:
+Cuando multiples casos deben ejecutar el mismo código lo que se hace es poner los casos `case` uno a continuación del otro y dejando luego del último el código a ejecutar, como en el siguiente ejemplo:
 
 
 ```js
