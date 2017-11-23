@@ -45,7 +45,7 @@ En este ejemplo el ciclo hace lo siguiente:
 
 ## While
 
-El ciclo While se declara usando la palabra reservada `while` seguida de paréntesis y llaves `(){}`, dentro de los paréntesis se escribe la condición de corte del ciclo que se evalúa antes de ejecutar cada porción de código y dentro de las llaves la porción de código que se va a ejecutar si la expresión es verdadera. Es importante poner en los paréntesis una condición de corte que se cumpla, para evitar generar un ciclo infinito.
+El ciclo While se declara usando la palabra reservada `while` seguida de paréntesis y llaves `(){}`, dentro de los paréntesis se escribe la condición de corte del ciclo y dentro de las llaves la porción de código que se va a ejecutar si la expresión es verdadera. Es importante poner en los paréntesis una condición de corte que se deje de cumplir en algún momento para evitar generar un ciclo infinito.
 
 ```js
 var i = 1
@@ -69,7 +69,7 @@ En este ejemplo el ciclo hace lo siguiente:
 
 ## Do while
 
-El ciclo Do while se declara usando la palabra reservada `do` seguida de llaves `{}`, la palabra reservada `while` y paréntesis `()`, dentro de los paréntesis se escribe la condición de corte del ciclo que se evalúa antes de ejecutar cada porción de código, excepto la primera vez y dentro de las llaves la porción de código que se va a ejecutar si la expresión es verdadera. Es importante poner en los paréntesis una condición de corte que se cumpla, para evitar generar un ciclo infinito.
+El ciclo Do while se declara usando la palabra reservada `do` seguida de llaves `{}`, la palabra reservada `while` y paréntesis `()`, dentro de los paréntesis se escribe la condición de corte del ciclo que se evalúa en cada ciclo, excepto la primera vez y dentro de las llaves la porción de código que se va a ejecutar si la expresión es verdadera. Es importante poner en los paréntesis una condición de corte que se deje de cumplir en algún momento, para evitar generar un ciclo infinito.
 
 ```js
 var i = 1
@@ -88,9 +88,9 @@ En este ejemplo el ciclo hace lo siguiente:
 3. Le suma un 1 a la variable `i++`.
 4. Verifica que se cumpla la condición booleana `i > 10`, como la condición no se cumple termina el ciclo.
 
-> Esto nos da como resultado que se muestran en consola solo el número del 1.
+> Esto nos da como resultado que se muestran en consola solo el número 1.
 
-El Do While nos permite por ejemplo pedir un dato y volver a pedirle hasta que sea correcto como en el siguiente ejemplo.
+El Do While nos permite por ejemplo pedir un dato y volver a pedirlo hasta que sea el esperado como en el siguiente ejemplo.
 
 ```js
 var value
@@ -107,7 +107,7 @@ En este ejemplo el ciclo hace lo siguiente:
 
 1. Declara e inicializa la variable `value`.
 2. Ejecuta el código dentro de las llaves pidiendo le al usuario que ingrese un valor y lo asigna a la variable `value`.
-3. Verifica que se cumpla la condición booleana `value < 5`, si el usuario ingresa un número menor a 5 se va a ejecutar el código entre llaves pidiendo le al usuario que ingrese un valor hasta que el valor ingresado no cumpla con la condición `value < 5`.
+3. Verifica que se cumpla la condición booleana `value <= 5`, si el usuario ingresa un número menor a 5 se va a ejecutar el código entre llaves pidiendo le al usuario que ingrese un valor hasta que el valor ingresado no cumpla con la condición `value <= 5`.
 4. Imprime el valor ingresado por el usuario en consola.
 
 > Esto nos da como resultado que se muestran en consola el valor ingresado por el usuario, que siempre va a ser mayor a 5.
