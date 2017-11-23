@@ -1,6 +1,6 @@
 # Condicionales
 
-Los condicionales nos permiten evaluar una condición y decidir seguir según el resultado que camino elegir dentro del código.
+Los condicionales nos permiten evaluar una condición y decidir seguir según el resultado que camino seguir dentro del código.
 
 ## If
 
@@ -14,7 +14,7 @@ if(firstName === 'Juan'){
 console.log('Gracias!')
 ```
 
-En este código el `if` evalúa si la variable `firstName` contiene el string `Juan`, si es así muestra en consola `Tu nombre es Juan`, por otro lado siempre se va a mostrar en consola un `Gracias!` no importa el valor de `firstName` porque esta por fuera de las llaves `{}` del `if`.
+> En este código el `if` evalúa si la variable `firstName` contiene el string `Juan`, si es así muestra en consola `Tu nombre es Juan`, por otro lado siempre se va a mostrar en consola un `Gracias!` no importa el valor de `firstName` porque esta por fuera de las llaves `{}` del `if`.
 
 ## If else
 
