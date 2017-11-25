@@ -37,3 +37,17 @@
   background-size: 200px 100px;
   background-position: top right;
 }
+
+.containerPepe {
+  width: 50%;
+  height: 100px;
+  cursor: pointer;
+}
+
+.red {
+  background-color: red;
+}
+
+.blue {
+  background-color: blue;
+}
