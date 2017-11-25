@@ -8,6 +8,11 @@
   opacity: 0.7;
 }
 
+.loginContainer {
+  width: 40%;
+  margin: auto;
+}
+
 .squaresContainer {
   width: 300px;
   height: 300px;
