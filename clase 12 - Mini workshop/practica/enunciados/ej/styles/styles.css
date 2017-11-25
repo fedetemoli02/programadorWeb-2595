@@ -7,3 +7,6 @@
   width: 95%;
   margin: 30px auto;
 }
+li {
+  cursor: pointer;
+}
