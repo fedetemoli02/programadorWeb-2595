@@ -97,5 +97,5 @@ var message = (function() {
 
 > En este ejemplo lo que sucede es que la función se ejecuta inmediatamente y el valor devuelto por el `return`, en este caso el string `Hola mundo` es asignado a la variable message.
 
-[Siguiente tema - >](04_01_objetos.md)
+[Siguiente tema](04_01_objetos.md)
 
