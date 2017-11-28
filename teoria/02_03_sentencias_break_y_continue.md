@@ -4,7 +4,7 @@ Las palabras reservadas break y continue, nos permiten salir de un ciclo o salte
 
 ## Salir - break
 
-La palabra reservada `break` nos permite cortar toda la ejecución de un ciclo para evitar tener que realizar un ciclo completo. Se suele utilizar con algún condicional de la siguiente manera:
+La palabra reservada `break` nos permite cortar toda la ejecución de un ciclo para evitar un ciclo completo cuando no es necesario. Se suele utilizar con algún condicional de la siguiente manera:
 
 ```js
 for(var i = 1 ; i < 10 ; i++){
@@ -20,7 +20,7 @@ En este ejemplo el ciclo hace lo siguiente:
 1. Declara e inicializa la variable `i` en uno `var i = 1`.
 2. Verifica que se cumpla la condición booleana `i < 10`.
 3. Ejecuta el código dentro de las llaves imprimiendo en pantalla el valor de la variable `i`.
-4. Verifica la condición dentro del if, si es verdadera corta el ciclo con el `break` si no continua.
+4. Verifica la condición dentro del `if`, si es verdadera corta el ciclo con el `break` si no continua.
 5. Le suma un 1 a la variable `i++`.
 6. Repite desde el paso 2 al 5 hasta que la condición booleana no se cumpla o el break se ejecute y corte el ciclo.
 
@@ -42,7 +42,7 @@ En este ejemplo el ciclo hace lo siguiente:
 
 1. Declara e inicializa la variable `i` en uno `var i = 1`.
 2. Verifica que se cumpla la condición booleana `i < 5`.
-3. Verifica la condición dentro del if, si es verdadera saltea esa pasada del ciclo si no sigue.
+3. Verifica la condición dentro del `if`, si es verdadera saltea esa pasada del ciclo si no sigue.
 4. Imprime en pantalla el valor de la variable `i`.
 5. Le suma un 1 a la variable `i++`.
 6. Repite desde el paso 2 al 5 hasta que la condición booleana no se cumpla y el ciclo corte.
