@@ -1,6 +1,6 @@
 # Palabras reservadas
 
-Las palabras reservadas son aquellas que usamos para darle instrucciones a la computadora. Estas palabras no se pueden usar para nombres de variables ni funciones, por eso se llaman reservadas. 
+Las palabras reservadas son especiales porque las usamos para darle instrucciones a la computadora, estas palabras no se pueden usar para nombres de variables ni funciones, por eso se llaman reservadas. 
 
 *Existen muchas palabras reservadas que vamos a ir viendo de a poco, pero como ayuda prestemos atención a que muchos editores de texto las marcan con un color distinto para diferenciarlas como en el siguiente ejemplo:*
 
