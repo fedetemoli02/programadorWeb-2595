@@ -15,10 +15,10 @@
             <thead>
               <tr>
                 <th scope="col">#</th>
-                <th scope="col">First Name</th>
-                <th scope="col">Last Name</th>
-                <th scope="col">Username</th>
-                <th scope="col">Borar</th>
+                <th scope="col" id="firstName" class="inputField"></th>
+                <th scope="col" id="lastName" class="inputField"></th>
+                <th scope="col"></th>
+                <th scope="col"></th>
               </tr>
             </thead>
             <tbody>
@@ -45,6 +45,15 @@
               </tr>
             </tbody>
           </table>
+          <div class="form-group" id="select">
+                <label for="sel1">Select list:</label>
+                <select class="form-control" id="sel1">
+                  <option value="es">Español</option>
+                  <option value="en">Inglés</option>
+                  <option value="pt">Portugues</option>
+
+                </select>
+              </div>
     <!-- jQuery -->
     <!-- <script src="./js/jquery-3.2.1.min.js"></script> -->
     <script src="./js/jquery-3.2.1.js"></script>

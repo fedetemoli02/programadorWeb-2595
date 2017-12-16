@@ -113,10 +113,45 @@ console.log('Clase 16')
 
 // ajaxCall('https://swapi.co/api/people/1', callback)
 
-$('.deleteButton').click(function (event) {
-  console.log('Click')
-  var tr = $(this).parent('tr')
-  tr.fadeOut(300, function () {
-    tr.remove()
-  })
+// $('.deleteButton').click(function (event) {
+//   console.log('Click')
+//   var tr = $(this).parent('tr')
+//   tr.fadeOut(300, function () {
+//     tr.remove()
+//   })
+// })
+
+// Traducciones pro
+
+var translates = [
+  {
+    key: 'firstName',
+    pt: 'Primero nombreciño',
+    es: 'Primer nombre',
+    en: 'First name'
+  },
+  {
+    key: 'lastName',
+    pt: 'Ultimo nombreciño',
+    es: 'Apellido',
+    en: 'Last name'
+  }
+]
+
+function genderMultiTranslate (key, lang) {
+  for (var i = 0; i < translates.length; i++) {
+    if (translates[i].key === key) {
+      var translate = translates[i]
+      return translate[lang]
+    }
+  }
+}
+
+$('#select').change(function (event) {
+  var value = event.target.value
+  var firstNameTranslated = genderMultiTranslate('firstName', value)
+  var lastNameTranslated = genderMultiTranslate('lastName', value)
+  $('.inputField').empty()
+  $('#firstName').append(firstNameTranslated)
+  $('#lastName').append(lastNameTranslated)
 })
